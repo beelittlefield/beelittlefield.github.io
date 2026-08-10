@@ -1,0 +1,53 @@
+
+body {
+  background-color: #fcf7ea;
+  color: #594d48;
+  font-family: Verdana;
+  margin: 50px;
+}
+
+/* 1. Unvisited link */
+a:link {
+  color: #8accbf;
+  text-decoration: none; /* Removes the default underline if desired */
+}
+
+/* 2. Visited link */
+a:visited {
+  color: #8accbf;
+}
+
+/* 3. Hover state */
+a:hover {
+  color: #8accbf;
+  text-decoration: underline; /* Adds underline on hover */
+}
+
+.custom-spaced-list li {
+  margin-bottom: 1.5rem; 
+}
+
+/* Optional: Removes the extra gap from the very last item */
+.custom-spaced-list li:last-child {
+  margin-bottom: 0;
+}
+
+
+.fraunces-soft {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+
+h1 {
+  font-family: "Fraunces", Verdana, serif;
+}
+
+h2 {
+  font-family: "Fraunces", Verdana, serif;
+}
+
